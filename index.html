@@ -31,7 +31,7 @@
             </p>
         </section>
         <section>
-         <img src="./img/foto.png" alt="imagen wapas">
+            <img src="./img/foto.png" alt="imagen wapas">
         </section>
     </header>
     <main>
@@ -76,18 +76,27 @@
                     contactemos con vos?
                 </h4>
                 <p>Envianos tu consulta >></p>
+                <form method="post" action="./php/action.php">
+                    <label for="">Nombre <span>*</span>:<br><input name= "Nombre" required type="text"></label><br>
+                    <label for="">Email:<span>*</span>:<br> <input name= "email" required type="email"></label><br>
+                    <label for="">Mensaje:<span>*</span>:<br> <TEXTAREA required name="comentarios" id="" cols="30" rows="10"></TEXTAREA> </label><br>
+                </form>
+                <div>
+                    <input type="submit" value="Enviar consulta">
+                    <input type="reset" value="Borrar">
+                </div>
             </section>
         </div>
     </main>
     <aside>
-<a href=""><img src="./img/instagram-icon.png" alt="link instagram"></a>
-<a href=""><img src="./img/dribbble-icon.png" alt="link dribble"></a>
-<a href=""><img src="./img/linkedin-icon.png" alt="link linkedin"></a>
-<a href=""><img src="./img/facebook-icon.png" alt="link facebook"></a>
+        <a href=""><img src="./img/instagram-icon.png" alt="link instagram"></a>
+        <a href=""><img src="./img/dribbble-icon.png" alt="link dribble"></a>
+        <a href=""><img src="./img/linkedin-icon.png" alt="link linkedin"></a>
+        <a href=""><img src="./img/facebook-icon.png" alt="link facebook"></a>
     </aside>
     <footer>
         <h1>wwwapas</h1>
-        <a href="mailto: wwwwapas_sm@gmail.com"></a>
+        <a href="mailto: wwwwapas_sm@gmail.com">wwwwapas_sm@gmail.com</a>
     </footer>
 </body>
 
